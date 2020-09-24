@@ -196,6 +196,7 @@ a:hover {
     position: absolute;
     left: 450px;
     top: 40px;
+    width: max-content;
 }
 
 .instant {
