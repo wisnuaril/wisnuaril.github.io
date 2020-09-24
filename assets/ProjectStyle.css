@@ -29,7 +29,8 @@ a:hover {
 }
 
 /* Style for Landing Page */
-.landing
+
+.landing{
     position: relative;
     left: -120px;
 }
