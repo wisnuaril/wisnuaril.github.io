@@ -1,0 +1,357 @@
+@font-face {
+    font-family: mermaid;
+    src: url(mermaid1001.ttf);
+}
+
+p {
+    margin-top: 0;
+    margin-bottom: 5pt;
+}
+
+.navbar {
+    background-color: black;
+}
+
+.navbar-brand {
+    color: rgb(255, 202, 27);
+}
+
+a:hover {
+    color: rgb(255, 202, 27);
+}
+
+.nav-link {
+    color: white;
+}
+
+.contentnavbar {
+    padding: -10px;
+}
+
+/* Style for Landing Page */
+.landing {
+    position: relative;
+    left: -120px;
+}
+
+.bekgron {
+    width: 1360px;
+    height: auto;
+    z-index: 0;
+}
+
+.play {
+    width: 1360px;
+    height: auto;
+    left: 1.3%;
+    top: 47.5%;
+    position: absolute;
+    z-index: 3;
+}
+
+.header {
+    height: auto;
+    width: 80%;
+    left: 22.5%;
+    top: 150px;
+    position: absolute;
+    z-index: 1;
+}
+
+.cloud {
+    height: auto;
+    width: 1500px;
+    left: 0%;
+    top: 170px;
+    position: absolute;
+    z-index: 2;
+}
+
+/* The sticky class is added to the header with JS when it reaches its scroll position */
+#sticky.stick {
+        height: auto;
+        width: 915px;
+        position: fixed;
+        top: 150px;
+        left: 17.8%;
+        padding-top: -300px;
+}
+/* Style for Body 1 */
+.body1 {
+    margin-top: 50px;
+    position: relative;
+    font-family: 'Segoe UI';
+}
+
+.title {
+    font-size: 32pt;
+}
+
+.sub-title {
+    font-size: 16pt;
+}
+
+/* Style for Carousel */
+
+.trip1,
+.trip2,
+.trip3,
+.trip4,
+.trip5,
+.trip6 {
+    position: relative;
+}
+
+.btm {
+    z-index: 0;
+}
+
+.defaultpricerange {
+    font-size: 12pt;
+    text-align: left;
+    margin-top: -5px;
+    margin-bottom: -10px;
+}
+
+.top1,
+.top2,
+.top3,
+.top4,
+.top5,
+.top6 {
+    position: absolute;
+    z-index: 1;
+    bottom: -20px;
+    right: 30px;
+}
+
+.price1,
+.price2,
+.price3,
+.price4,
+.price5,
+.price6 {
+    color: black;
+    font-size: 18pt;
+    margin-bottom: 5pt;
+}
+
+.package1,
+.package2,
+.package3,
+.package4,
+.package5,
+.package6 {
+    color: black;
+    font-size: 16pt;
+    font-family: mermaid;
+    line-height: 16pt;
+    left: 8px;
+    bottom: -50px;
+    position: absolute;
+}
+
+.book1,
+.book2,
+.book3,
+.book4,
+.book5,
+.book6 {
+    color: black;
+    font-size: 12pt;
+    font-family: 'Segoe UI';
+    line-height: 0pt;
+    left: 8px;
+    bottom: -70px;
+    position: absolute;
+}
+
+.ornament1 {
+    position: absolute;
+    left: -120px;
+    top: 125%;
+}
+
+.body2 {
+    position: absolute;
+    top: 635px;
+    z-index: 0;
+}
+
+.back {
+    position: absolute;
+    left: -120px;
+    z-index: -2;
+}
+
+.default {
+    top: 50px;
+    left: 0;
+    position: absolute;
+    z-index: -1;
+}
+
+.text2 {
+    position: absolute;
+    left: 450px;
+    top: 40px;
+}
+
+.instant {
+    font-family: 'Segoe UI';
+    font-size: 12pt;
+}
+
+.heading {
+    font-family: mermaid;
+    font-size: 24pt;
+}
+
+.descript {
+    font-family: 'Segoe UI';
+    font-size: 12pt;
+}
+
+.splitline {
+    position: absolute;
+    top: 245px;
+}
+
+.content {
+    position: absolute;
+    top: 255px;
+}
+
+.buto {
+    position: absolute;
+    top: 420px;
+    left: 15px;
+    width: 700px;
+}
+
+.only {
+    font-family: 'Segoe UI';
+    font-size: 16pt;
+}
+
+.go {
+    background-color: black;
+    color: rgb(255, 202, 27);
+    border-radius: 5px;
+    font-family: 'Segoe UI';
+    font-size: 28pt;
+    padding: 15px 70px;
+    left: 80px;
+    position: absolute;
+}
+
+.cont {
+    position: absolute;
+    right: -295px;
+    top: -40px;
+}
+
+.place {
+    position: relative;
+    top: 650px;
+    left: -15px;
+}
+
+.lp1,
+.lp2,
+.lp3,
+.lp4 {
+    height: 100%;
+    width: 100%;
+}
+
+.caption {
+    top: 250px;
+    left: 250px;
+    font-family: mermaid;
+    font-size: 32pt;
+    position: absolute;
+}
+
+.ornament3 {
+    position: absolute;
+    top: 800px;
+    left: -125px;
+    z-index: 7;
+}
+
+.flag {
+    position: absolute;
+    top: 1300px;
+    left: -125px;
+}
+
+.bawah {
+    width: 113%;
+}
+
+.session {
+    position: absolute;
+    top: 70%;
+    left: 45%;
+    width: 1200px;
+}
+
+.register {
+    z-index: 50;
+    color: white;
+    font-size: 25pt;
+    text-align: center;
+    position: absolute;
+    left: -20%;
+    top: -250%;
+}
+
+.footer {
+    position: relative;
+    top: 1565px;
+    width: 1395.54px;
+    height: 200px;
+    background-color: rgb(255, 202, 27);
+    left: -140px;
+}
+
+.tw {
+    height: 22px;
+    width: 22px;
+}
+
+.brandname {
+    font-size: 16pt;
+    color: black;
+}
+
+.maininfo {
+    top: 50px;
+    float: left;
+    left: 0;
+    margin-left: 112px;
+    position: relative;
+    font-size: 8pt;
+}
+
+.sitemap,
+.packages,
+.stay,
+.maps,
+.booking {
+    top: 50px;
+    float: left;
+    right: -320px;
+    margin-left: 50px;
+    position: relative;
+    font-size: 8pt;
+}
+
+.credit {
+    position: absolute;
+    top: 175px;
+    text-align: center;
+    left: 180px;
+    font-size: 6pt;
+}
